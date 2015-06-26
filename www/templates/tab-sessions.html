@@ -1,0 +1,35 @@
+<ion-view view-title="Sessions">
+<div class="bar bar-subheader
+  item-input-inset bar-light">
+  <label class="item-input-wrapper">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="search" ng-model="query" placeholder="Search">
+  </label>
+</div>
+
+  <ion-content class="has-subheader">
+    <ion-refresher on-refresh="doRefresh()">
+    </ion-refresher>
+    <ion-list>
+      <ion-item ng-class="{'star':item.star}" class="item-icon-right"
+      ng-repeat="item in sessions | filter: query" type="item-text-wrap" href="#/tab/sessions/{{item.id}}">
+        <!-- <img ng-src="{{session.face}}"> -->
+        <h2>{{item.title}}</h2>
+        <p>{{item.date}} - {{item.room}} </p>
+
+        <!-- <i class="icon ion-chevron-right icon-accessory"></i> -->
+
+        <button class="button button-clear icon ion-star button-assertive" ng-click="toggleStar(item)" ng-show="item.star"></button>
+        <ion-option-button class="button-dark" ng-click="toggleStar(item)">
+        <i class="icon ion-star"></i>
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+<!-- <p>**Testing server</p>
+{{sessions.data.title}} -->
+
+  </ion-content>
+</ion-view>
+
+
+

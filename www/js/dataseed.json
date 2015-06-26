@@ -1,0 +1,49 @@
+{
+  "calendar":[
+  {"weekday":"Monday"}
+  ],
+  "sessions":[
+{
+  "id":0,
+  "title":"Registration Sign-in",
+  "date":"Mon June 29 - 7:30am-5:00pm",
+  "room":"Front lobby",
+  "speaker":"-"
+},
+{
+  "id":1,
+  "title":"New Program Institutes",
+  "date":"Mon June 29 - 9:00am-10:00am",
+  "room":"Catalina/Madera",
+  "speaker":"Rosa Molina"
+},
+{
+  "id":2,
+  "title":"Cultural Diversity Institute",
+  "date":"Mon June 29 - 9:00am-10:00am",
+  "room":"Mojave",
+  "speaker":"John Doe, Jane Doe"
+},
+{
+  "id":3,
+  "title":"Nuts & Bolts Middle School Institute",
+  "date":"Mon June 29 - 9:00am-10:00am",
+  "room":"San Jacinto",
+  "speaker":"John Doe"
+},
+{
+  "id":4,
+  "title":"High School Institute",
+  "date":"Mon June 29 - 9:00am-10:00am",
+  "room":"Santa Rosa",
+  "speaker":""
+},
+{
+  "id":5,
+  "title":"Exhibitors",
+  "date":"Tue June 30 - 7:30am-5:00pm",
+  "room":"Renaissance Hotel Hallways in front of the Ballroom",
+  "speaker":"-"
+}
+]
+}
